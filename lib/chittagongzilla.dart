@@ -13,7 +13,7 @@ class _chittagongzillaState extends State<chittagongzilla> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.green,
-        title: Text('History of Chittagong'),
+        title: Text('চট্টগ্রাম জেলার ইতিহাস'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(18.0),
@@ -25,24 +25,45 @@ class _chittagongzillaState extends State<chittagongzilla> {
                 width: 400,
                 fit: BoxFit.cover,
               ),
-              Text('History of Chittagong',
+              Text('চট্টগ্রাম জেলা',
                 style: TextStyle(fontSize: 25),),
-              Text('Chittagong (Bengali: গাজীপুর) is a city in central Bangladesh. It is located in the Gazipur District, near the capital city of Dhaka and has a population of 1 199 215. Gazipur is the home of Dhaka University of Engineering & Technology and Islamic University of Technology (IUT), the countrys only international university in the fields of engineering and technology, is run and funded by OIC.',
+              Text('চট্টগ্রামের প্রায় ৪৮ টি নামের খোঁজ পাওয়া যায়। এর মধ্যে রম্যভূমি, চাটিগাঁ, চাতগাও, রোসাং, চিতাগঞ্জ, জাটিগ্রাম ইত্যাদি। চট্টগ্রাম নামের উৎপত্তি নিয়ে বিশেষজ্ঞদের মধ্যে মতপার্থক্য আছে, পন্ডিত বার্নোলির মতে, আরবি ’শ্যাত (খন্ড) অর্থ বদ্বীপ, গাঙ্গ অর্থ গঙ্গা নদী থেকে চট্টগ্রাম নামের উৎপত্তি। অপর এক মতে ত্রয়োদশ শতকে এ অঞ্চলে ইসলাম প্রচার করতে এসেছিলেন বার জন আউলিয়া। তাঁরা একটি বড় বাতি বা চেরাগ জ্বালিয়ে উঁচু জায়গায় স্থাপন করেছিলেন। চট্টগ্রামের আঞ্চলিক ভাষায় ’চাটি’ অর্থ বাতি বা চেরাগ ্এবং গাঁও অর্থ গ্রাম। এ থেকে নাম হয় ’’চাটিগাঁও’। এশিয়াটিক সোসাইটির প্রতিষ্ঠাতা স্যার উইলিয়াম জোন্সের মতে, এ এলাকার একটি ক্ষুদ্র পাখির নাম থেকে চট্টগ্রাম নামের উৎপত্তি। ১৬৬৬ খ্রিস্টাব্দে চট্টগ্রাম মোঘল সম্রাজের অংশ হয়। আরাকানদের পরাজিত করে মোঘল এর নাম রাখেন ইসলামাবাদ। ১৭৬০ খ্রিস্টাব্দে মীর কাশিম আলী খান ইসলামাবাদকে ব্রিটিশ ইস্ট ইন্ডিয়া কোম্পানির কাছে হস্তান্তর করেন। পরে কোম্পানি এর নাম রাখেন চিটাগাং।',
                 style: TextStyle(fontSize: 15),),
-              Text('Demographics',
+              Text('বিখ্যাত খাবার',
                 style: TextStyle(fontSize: 25),),
-              Text('Gazipur District (Dhaka division), with an area of 1741.53 km², is bounded by Mymensingh and Kishoreganj districts on the north, Dhaka, Narayanganj and Narsingdi districts on the south, Narsingdi on the east, Dhaka and Tangail districts on the west. Annual average temperature maximum 36 °C and minimum 12.7 °C; annual rainfall 2376 mm.',
+              Text('(১) মেজবান'
+                  ' ও (২) শুটকি',
                 style: TextStyle(fontSize: 15),),
-              Text('Main rivers are old Brahmaputra, Shitalakshya, Turag (sight of Bishwa Ijtema, a Tablighi Jamaat conference in January), Bangshi, Balu, Banar. Turag is seriously polluted by industrial chemical.',
-                style: TextStyle(fontSize: 15),),
-              Text('Administration',
+              Text('বিখ্যাত স্থান',
                 style: TextStyle(fontSize: 25),),
-              Text('Gazipur consists of 9 wards and 31 mahallas with an area of 49.32 km². The fast-growing town has a population more than 1 million and density more than 24,000 per km²; male 52.52%, female 47.48%.[2]',
+              Text('ফয়স লেক'
+                  'চট্টগ্রাম চিড়িয়াখানা'
+                  'চট্টগ্রাম শিশুপার্ক'
+                  'জাতিতাত্ত্বিক জাদুঘর'
+                  'আগ্রাবাদ'
+                  'বাটালি হিল'
+                  'ডিসি অফিস (পরীর পাহাড়)'
+                  'কোর্ট বিল্ডিং'
+                  'য়ার সিমেট্রি (কমনওয়েলথ যুদ্ধসমাধি),'
+                  'কদম মোবারক মসজিদ'
+                  'শাহ্ আমানতের (রহ.) দরগা'
+                  'বদর আউলিয়ার (রহ.) দরগা'
+                  'বায়েজিদ বোস্তামির (রহ.) মাজার'
+                  'শেখ ফরিদের চশমা'
+                  'ওলি খাঁর মসজিদ'
+                  'আন্দরকিল্লা শাহী জামে মসজিদ'
+                  'হামজার মসজিদ'
+                  'হামজারবাগ'
+                  'পাথরঘাটা রোমান ক্যাথলিক গির্জা'
+                  'চট্টগ্রাম বৌদ্ধবিহার'
+                  'নন্দনকানন'
+                  'কৈবল্যধাম'
+                  'চন্দ্রনাথ পাহাড় ও মন্দির'
+                  'সীতাকুন্ড'
+                  'বাঁশখালী ইকোপার্ক'
+                  'সীতাকুন্ড ইকোপার্ক',
                 style: TextStyle(fontSize: 15),),
-              Text('Banks',
-                style: TextStyle(fontSize: 25),),
-              Text('There is head office of a national strong bank which is Progoti Co-operative Land Development Bank Limited, in the short name or a nickname, Progoti Bank in Kapasia Upazila Sadar, a small but very beautiful town nearly 30 kilometer north of Gazipur City what specializes in originating and/or servicing mortgage loans, is said that Progoti Bank is father of Land Development Banks in the country. Without it, branches of banking institutions in the area include:',
-                style: TextStyle(fontSize: 15),),
+
             ],
           ),
         ),

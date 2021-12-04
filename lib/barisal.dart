@@ -31,9 +31,9 @@ class barisal extends StatelessWidget {
               decoration: BoxDecoration(
                 gradient: LinearGradient(
                   colors: [
-                    Colors.yellow,
-                    Colors.orangeAccent,
-                    Colors.yellow.shade300,
+                    Colors.blue.shade300,
+                    Colors.black26,
+                    Colors.blue.shade300,
                   ],
                 ),
               ),

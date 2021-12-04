@@ -7,7 +7,7 @@ class bhola extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.green,
-        title: Text('History of Bhola'),
+        title: Text('ভোলা জেলার ইতিহাস'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(18.0),
@@ -19,23 +19,24 @@ class bhola extends StatelessWidget {
                 width: 400,
                 fit: BoxFit.cover,
               ),
-              Text('History of Bhola',
+              Text('ভোলা জেলা',
                 style: TextStyle(fontSize: 25),),
-              Text('Bhola (Bengali: গাজীপুর) is a city in central Bangladesh. It is located in the Gazipur District, near the capital city of Dhaka and has a population of 1 199 215. Gazipur is the home of Dhaka University of Engineering & Technology and Islamic University of Technology (IUT), the countrys only international university in the fields of engineering and technology, is run and funded by OIC.',
+              Text('ভোলা জেলার নামকরণের পিছনে স্থায়ীভাবে একটি লোককাহিনী প্রচলিত আছে যে, ভোলা শহরের মধ্য দিয়ে বয়ে যাওয়া বেতুয়া নামক খালটি এখনকার মত অপ্রশস্ত ছিলনা। একসময় এটি পরিচিত ছিল বেতুয়া নদী নামে। খেয়া নৌকার সাহায্যে নদীতে পারাপার করা হত। বুড়ো এক মাঝি এখানে খেয়া নৌকার সাহায্যে লোকজন পারাপার করতো। তাঁর নাম ছিল ভোলা গাজী পাটনী। বর্তমানে যোগীরঘোলের কাছেই তাঁর আস্তানা ছিল। এই ভোলা গাজীর নামানুসারেই এক সময় স্থানটির নাম দেয়া হয় ভোলা। সেই থেকে আজ অব্দী ভোলা নামে পরিচিত।',
                 style: TextStyle(fontSize: 15),),
-              Text('Demographics',
+              Text('বিখ্যাত খাবার',
                 style: TextStyle(fontSize: 25),),
-              Text('Gazipur District (Dhaka division), with an area of 1741.53 km², is bounded by Mymensingh and Kishoreganj districts on the north, Dhaka, Narayanganj and Narsingdi districts on the south, Narsingdi on the east, Dhaka and Tangail districts on the west. Annual average temperature maximum 36 °C and minimum 12.7 °C; annual rainfall 2376 mm.',
+              Text('(১)নারিকেল'
+                  ' ও (২)মহিষের দুধের দই',
                 style: TextStyle(fontSize: 15),),
-              Text('Main rivers are old Brahmaputra, Shitalakshya, Turag (sight of Bishwa Ijtema, a Tablighi Jamaat conference in January), Bangshi, Balu, Banar. Turag is seriously polluted by industrial chemical.',
-                style: TextStyle(fontSize: 15),),
-              Text('Administration',
+              Text('বিখ্যাত স্থান',
                 style: TextStyle(fontSize: 25),),
-              Text('Gazipur consists of 9 wards and 31 mahallas with an area of 49.32 km². The fast-growing town has a population more than 1 million and density more than 24,000 per km²; male 52.52%, female 47.48%.[2]',
-                style: TextStyle(fontSize: 15),),
-              Text('Banks',
-                style: TextStyle(fontSize: 25),),
-              Text('There is head office of a national strong bank which is Progoti Co-operative Land Development Bank Limited, in the short name or a nickname, Progoti Bank in Kapasia Upazila Sadar, a small but very beautiful town nearly 30 kilometer north of Gazipur City what specializes in originating and/or servicing mortgage loans, is said that Progoti Bank is father of Land Development Banks in the country. Without it, branches of banking institutions in the area include:',
+             Text(' (১) বীরশ্রেষ্ঠ মোস্তফা কামাল যাদুঘর'
+                  ' (২) চর মনপুরা'
+                  ' (৩) চর কুকরি মুকরি'
+                  ' (৪) দেউলি'
+                  ' (৫) মনপুরা ফিশারিজ লিমিটেড'
+                  ' (৬) ঢাল চর'
+                  ' (৭) মনপুরা ল্যান্ডিং স্টেশন',
                 style: TextStyle(fontSize: 15),),
             ],
           ),

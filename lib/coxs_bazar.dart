@@ -7,7 +7,7 @@ class coxs_bazar extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.green,
-        title: Text('History of Coxs Bazar'),
+        title: Text('কক্সবাজার জেলার ইতিহাস'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(18.0),
@@ -19,24 +19,35 @@ class coxs_bazar extends StatelessWidget {
                 width: 400,
                 fit: BoxFit.cover,
               ),
-              Text('History of Coxs Bazar',
+              Text('কক্সবাজার জেলা',
                 style: TextStyle(fontSize: 25),),
-              Text('Coxs Bazar (Bengali: গাজীপুর) is a city in central Bangladesh. It is located in the Gazipur District, near the capital city of Dhaka and has a population of 1 199 215. Gazipur is the home of Dhaka University of Engineering & Technology and Islamic University of Technology (IUT), the countrys only international university in the fields of engineering and technology, is run and funded by OIC.',
+              Text('আরব ব্যবসয়ী ও ধর্ম প্রচারকগণ ৮ম শতকে চট্টগ্রাম ও আকিব বন্দরে আগমন করেন। এই দুই বন্দরের মধ্যবর্তী হওয়ায় কক্সবাজার এলাকা আরবদের ঘনিষ্ঠ সংস্পর্শে আসে। নবম শতাব্দীতে কক্সবাজার সহ বৃহত্তর চট্টগ্রাম হরিকেলার রাজা কান্তিদেব দ্বারা শাসিত হয়। ৯৩০ খ্রিস্টাব্দে আরাকান রাজা সুলাত ইঙ্গ চট্টগ্রাম দখল করে নেবার পর থেকে কক্সবাজার আরাকান রাজ্যের অংশ হয়। ১৭৮৪ সালে রার্মারাজ বোধাপায়া আরাকান দখল করে নেয়। ১৭৯৯ সালে বার্মারাজের হাত থেকে বাঁচার জন্য প্রায় ১৩ হাজার আরাকনি কক্সবাজার থেকে পালিয়ে যায়। এদর পূনর্বাসন করার জন্য ইস্ট ইন্ডিয়া কোম্পানি একজন হিরাম কক্সকে নিয়োগ করে। পূনর্বাসন প্রক্রিয়া শেষ হবার পূর্বেই হিরাম কক্স মৃত্যু বরণ করেন। পূনর্বাসন প্রক্রিয়ায় তাঁর অবদানের জন্য কক্স-বাজার নামক একটি বাজার প্রতিষ্ঠিত হয়েছিল। এই কক্স-বাজার থেকে কক্সবাজার নামের উৎপত্তি।',
                 style: TextStyle(fontSize: 15),),
-              Text('Demographics',
+              Text('বিখ্যাত খাবার',
                 style: TextStyle(fontSize: 25),),
-              Text('Gazipur District (Dhaka division), with an area of 1741.53 km², is bounded by Mymensingh and Kishoreganj districts on the north, Dhaka, Narayanganj and Narsingdi districts on the south, Narsingdi on the east, Dhaka and Tangail districts on the west. Annual average temperature maximum 36 °C and minimum 12.7 °C; annual rainfall 2376 mm.',
+              Text('মিষ্টিপান',
                 style: TextStyle(fontSize: 15),),
-              Text('Main rivers are old Brahmaputra, Shitalakshya, Turag (sight of Bishwa Ijtema, a Tablighi Jamaat conference in January), Bangshi, Balu, Banar. Turag is seriously polluted by industrial chemical.',
+              Text('বিখ্যাত স্থান',
                 style: TextStyle(fontSize: 15),),
-              Text('Administration',
+              Text('সমুদ্র সৈকত'
+                  'হিমছড়ি'
+                  'অগে্গ্মধা ক্যাং'
+                  'আদিনাথ মন্দির'
+                  'সোনাদিয়া দ্বীপ'
+                  'রামকোট তীর্থধাম'
+                  'লামারপাড়া ক্যাং'
+                  'ইনানী'
+                  'প্রবালদ্বীপ সেন্টমার্টিন'
+                  'মাথিনের কূপ'
+                  'বঙ্গবন্ধু সাফারি পার্ক'
+                  'কুতুবদিয়া বাতিঘর'
+                  'হারবাং'
+                  'ছেঁড়াদ্বীপ'
+                  'মহেশখালী জেটি'
+                  'রাডার স্টেশন ও লাইট হাউস'
+                  'নাইক্ষ্যংছড়ি লেক ও ঝুলন্ত সেতু'
+                  'কানা রাজার সুড়ঙ্গ',
                 style: TextStyle(fontSize: 25),),
-              Text('Gazipur consists of 9 wards and 31 mahallas with an area of 49.32 km². The fast-growing town has a population more than 1 million and density more than 24,000 per km²; male 52.52%, female 47.48%.[2]',
-                style: TextStyle(fontSize: 15),),
-              Text('Banks',
-                style: TextStyle(fontSize: 25),),
-              Text('There is head office of a national strong bank which is Progoti Co-operative Land Development Bank Limited, in the short name or a nickname, Progoti Bank in Kapasia Upazila Sadar, a small but very beautiful town nearly 30 kilometer north of Gazipur City what specializes in originating and/or servicing mortgage loans, is said that Progoti Bank is father of Land Development Banks in the country. Without it, branches of banking institutions in the area include:',
-                style: TextStyle(fontSize: 15),),
             ],
           ),
         ),

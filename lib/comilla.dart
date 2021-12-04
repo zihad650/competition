@@ -7,7 +7,7 @@ class cumilla extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.green,
-        title: Text('History of Cumilla'),
+        title: Text('কুমিল্লা জেলার ইতিহাস'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(18.0),
@@ -19,23 +19,41 @@ class cumilla extends StatelessWidget {
                 width: 400,
                 fit: BoxFit.cover,
               ),
-              Text('History of Cumilla',
+              Text('কুমিল্লা জেলা',
                 style: TextStyle(fontSize: 25),),
-              Text('Cumilla (Bengali: গাজীপুর) is a city in central Bangladesh. It is located in the Gazipur District, near the capital city of Dhaka and has a population of 1 199 215. Gazipur is the home of Dhaka University of Engineering & Technology and Islamic University of Technology (IUT), the countrys only international university in the fields of engineering and technology, is run and funded by OIC.',
+              Text('প্রাচীনকালে এটি সমতট জনপদের অন্তর্গত ছিল এবং পরবর্তীতে এটি ত্রিপুরা রাজ্যের অংশ হয়। কুমিল্লা নামকরণের অনেকগুলো প্রচলিত লোককথা আছে, যার মধ্যে উল্লেখ্যযোগ্য চৈনিক পরিব্রাজক ওয়াং চোয়াং কর্তৃক সমতট রাজ্য পরিভ্রমণের বৃত্তান্ত। তাঁর বর্ণনায় কিয়া-মল-ঙ্কিয়া ( Kiamolonkia) নামক স্থানের বর্ণনা রয়েছে তা থেকে কমলাঙ্ক বা কুমিল্লার নামকরণ হয়েছে। ১৯৬০ সালে কুমিল্লা জেলা হিসেবে আত্মপ্রকাশ করে।',
                 style: TextStyle(fontSize: 15),),
-              Text('Demographics',
+              Text('বিখ্যাত খাবার',
                 style: TextStyle(fontSize: 25),),
-              Text('Gazipur District (Dhaka division), with an area of 1741.53 km², is bounded by Mymensingh and Kishoreganj districts on the north, Dhaka, Narayanganj and Narsingdi districts on the south, Narsingdi on the east, Dhaka and Tangail districts on the west. Annual average temperature maximum 36 °C and minimum 12.7 °C; annual rainfall 2376 mm.',
+              Text('রসমালাই',
                 style: TextStyle(fontSize: 15),),
-              Text('Main rivers are old Brahmaputra, Shitalakshya, Turag (sight of Bishwa Ijtema, a Tablighi Jamaat conference in January), Bangshi, Balu, Banar. Turag is seriously polluted by industrial chemical.',
-                style: TextStyle(fontSize: 15),),
-              Text('Administration',
+              Text('বিখ্যাত স্থান',
                 style: TextStyle(fontSize: 25),),
-              Text('Gazipur consists of 9 wards and 31 mahallas with an area of 49.32 km². The fast-growing town has a population more than 1 million and density more than 24,000 per km²; male 52.52%, female 47.48%.[2]',
+             Text(' (১) শালবন বিহার ও প্রত্নতাত্ত্বিক জাদুঘর'
+                  ' (২) দ্বিতীয় বিশ্বযুদ্ধে নিহত সৈনিকদের সমাধিক্ষেত্র ময়নামতি ওয়ার সিমেট্রি'
+                  ' (৩) বাংলাদেশ পল্লী উন্নয়ন একাডেমি (বার্ড) শাহ সুজা মসজিদ'
+                  ' (৪) জগন্নাথ মন্দির'
+                  ' (৫) ধর্মসাগর'
+                  ' (৬) বৌদ্ধবিহারের ধ্বংসাবশেষ'
+                  ' (৭) রূপবানমুড়া ও কুটিলামুড়া'
+                  ' (৮) বার্ডসংলগ্ন জোড়কানন দীঘি'
+                  ' (৯) জগন্নাথ দীঘি'
+                  ' (১০) বীরচন্দ্র গণপাঠাগার ও নগর মিলনায়তন'
+                  ' (১১) শ্রী শ্রী রামঠাকুরের আশ্রম'
+                  ' (১২) রামমালা পাঠাগার ও নাটমন্দির'
+                  ' (১৩) লাকসাম রোড'
+                  ' (১৪) নবাব ফয়জুন্নেছার বাড়ি'
+                  ' (১৫) সঙ্গীতজ্ঞ শচীনদেব বর্মণের বাড়ি'
+                  ' (১৬) রাজেশপুর বন বিভাগের পিকনিক স্পট'
+                  ' (১৭) গোমতি নদী'
+                  ' (১৮) পুরাতন অভয়াশ্রম (কেটিসিসিএ লি.)'
+                  ' (১৯) বাখরাবাদ গ্যাস ফিল্ড'
+                  ' (২০) কবি কাজী নজরুল ইসলামের প্রথম স্ত্রী বেগম নার্গিসের বাড়ি'
+                  ' (২১) নবাব ফয়জুন্নেছার পৈতৃক বাড়ি',
                 style: TextStyle(fontSize: 15),),
-              Text('Banks',
+              Text('বিখ্যাত বস্ত্র',
                 style: TextStyle(fontSize: 25),),
-              Text('There is head office of a national strong bank which is Progoti Co-operative Land Development Bank Limited, in the short name or a nickname, Progoti Bank in Kapasia Upazila Sadar, a small but very beautiful town nearly 30 kilometer north of Gazipur City what specializes in originating and/or servicing mortgage loans, is said that Progoti Bank is father of Land Development Banks in the country. Without it, branches of banking institutions in the area include:',
+              Text('বখদ্দর',
                 style: TextStyle(fontSize: 15),),
             ],
           ),

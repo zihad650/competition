@@ -7,7 +7,7 @@ class chandpur extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.green,
-        title: Text('History of Chandpur'),
+        title: Text('চাঁদপুর জেলার ইতিহাস'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(18.0),
@@ -19,23 +19,34 @@ class chandpur extends StatelessWidget {
                 width: 400,
                 fit: BoxFit.cover,
               ),
-              Text('History of Chandpur',
+              Text('চাঁদপুর জেলা',
                 style: TextStyle(fontSize: 25),),
-              Text('Chandpur (Bengali: গাজীপুর) is a city in central Bangladesh. It is located in the Gazipur District, near the capital city of Dhaka and has a population of 1 199 215. Gazipur is the home of Dhaka University of Engineering & Technology and Islamic University of Technology (IUT), the countrys only international university in the fields of engineering and technology, is run and funded by OIC.',
+              Text('১৭৭৯ খ্রিস্টাব্দে ব্রিটিশ শাসনামলে ইংরেজ জরিপকারী মেজর জেমস রেনেল তৎকালনি বাংলার যে মানচিত্র অংকন করেছিলেন তাতে চাঁদপুর নামে এক অখ্যাত জনপদ ছিল। তখন চাঁদপুরের দক্ষিণে নরসিংহপুর নামক ( বর্তমানে যা নদীগর্ভে বিলীন) স্থানে চাঁদপুরের অফিস-আদালত ছিল। পদ্মা ও মেঘনার সঙ্গমস্থল ছিল বতৃমান স্থান থেকে পাওয়া প্রায় ৬০ মাইল দক্ষিণ-পশ্চিমে। মেঘনা নদীর ভাঙ্গাগড়ার খেলায় এ এলাকা বর্তমানে বিলীন। বার ভূঁইয়াদের আমলে চাঁদপুর অঞ্চল বিক্রমপুরের জমিদার চাঁদরায়ের দখলে ছিল। ঐতিহাসিক জে.এম সেনগুপ্তের মতে চাঁদরায়ের নামানুসারে এ অঞ্চলের নাম চাঁদপুর। কথিত আছে চাঁপুরের (কোড়ালিয়া) পুরিন্দপুর মহল্লার চাঁদ ফকিরের নামানুসারে এ অঞ্চলের নাম চাঁদপুর। কারো কারো মতে, শাহ আহমেদ চাঁদ নামে একজন প্রশাষক দিল্লী থেকে পঞ্চদশ শতকে এখানে এসে একটি নদী বন্দর স্থাপন করেছিলেন। তাঁর নামানুসারে চাঁদপুর। ১৮৭৮ সালে প্রথম চাঁদপুর মহকুমার সৃষ্টি হয়। ১৮৯৬ সালের ১ অক্টোবর চাঁদপুর শহরকে পৌরসভা হিসেবে ঘোষণা করা হয়। ১৯৮৪ সালের ১৫ ই ফেব্রুয়ারী চাঁদপুর জেলা হিসেবে আত্মপ্রকাশ করে।',
                 style: TextStyle(fontSize: 15),),
-              Text('Demographics',
+              Text('বিখ্যাত খাবার',
                 style: TextStyle(fontSize: 25),),
-              Text('Gazipur District (Dhaka division), with an area of 1741.53 km², is bounded by Mymensingh and Kishoreganj districts on the north, Dhaka, Narayanganj and Narsingdi districts on the south, Narsingdi on the east, Dhaka and Tangail districts on the west. Annual average temperature maximum 36 °C and minimum 12.7 °C; annual rainfall 2376 mm.',
+              Text('ইলিশ',
                 style: TextStyle(fontSize: 15),),
-              Text('Main rivers are old Brahmaputra, Shitalakshya, Turag (sight of Bishwa Ijtema, a Tablighi Jamaat conference in January), Bangshi, Balu, Banar. Turag is seriously polluted by industrial chemical.',
-                style: TextStyle(fontSize: 15),),
-              Text('Administration',
+              Text('বিখ্যাত স্থান',
                 style: TextStyle(fontSize: 25),),
-              Text('Gazipur consists of 9 wards and 31 mahallas with an area of 49.32 km². The fast-growing town has a population more than 1 million and density more than 24,000 per km²; male 52.52%, female 47.48%.[2]',
-                style: TextStyle(fontSize: 15),),
-              Text('Banks',
-                style: TextStyle(fontSize: 25),),
-              Text('There is head office of a national strong bank which is Progoti Co-operative Land Development Bank Limited, in the short name or a nickname, Progoti Bank in Kapasia Upazila Sadar, a small but very beautiful town nearly 30 kilometer north of Gazipur City what specializes in originating and/or servicing mortgage loans, is said that Progoti Bank is father of Land Development Banks in the country. Without it, branches of banking institutions in the area include:',
+             Text(' (১) শ্রী শ্রী জগন্নাথ মন্দির'
+                  ' (২) মনসামুড়া'
+                  ' (৩) দোয়াটি'
+                  ' (৪) সাহারপাড়ের দীঘি'
+                  ' (৫) উজানীতে বেহুলার পাটা'
+                  ' (৬) তুলাতলি মঠ'
+                  ' (৭) সাহেবগঞ্জ নীলকুঠি'
+                  ' (৮) লোহাগড় মঠ'
+                  ' (৯) রূপসা জমিদারবাড়ি'
+                  ' (১০) হাজীগঞ্জ ঐতিহাসিক বড় মসজিদ'
+                  ' (১১) হজরত মাদ্দা খাঁ (রহ.) মসজিদ'
+                  ' (১২) বলাখাল জমিদারবাড়ি'
+                  ' (১৩) নাসিরকোর্ট শহীদ মুক্তিযোদ্ধা সমাধিস্থল'
+                  ' (১৪) নাগরাজাদের বাড়ি'
+                  ' (১৫) মঠ ও দীঘি'
+                  ' (১৬) নাওড়া'
+                  ' (১৭) শাহরাস্তির (রহ.) মাজার'
+                  ' ও (১৮) তিন গম্বুজ মসজিদ ও প্রাচীন কবর',
                 style: TextStyle(fontSize: 15),),
             ],
           ),

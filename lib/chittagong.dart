@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'brahmanbaria.dart';
 import 'chandpur.dart';
 import 'chittagongzilla.dart';
 import 'comilla.dart';
@@ -136,7 +137,7 @@ class chittagong extends StatelessWidget {
           onTap: () {Navigator.push(
             context,
             MaterialPageRoute(
-              builder: (context) =>mymensingh(),
+              builder: (context) =>brahmanbaria(),
             ),
           );
           },

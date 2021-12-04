@@ -7,7 +7,7 @@ class bandarban extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.green,
-        title: Text('History of Bandarban'),
+        title: Text('বান্দরবন জেলার ইতিহাস'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(18.0),
@@ -19,24 +19,30 @@ class bandarban extends StatelessWidget {
                 width: 400,
                 fit: BoxFit.cover,
               ),
-              Text('History of Bandarban',
+              Text('বান্দরবন জেলা',
                 style: TextStyle(fontSize: 25),),
-              Text('Bandarban (Bengali: গাজীপুর) is a city in central Bangladesh. It is located in the Gazipur District, near the capital city of Dhaka and has a population of 1 199 215. Gazipur is the home of Dhaka University of Engineering & Technology and Islamic University of Technology (IUT), the countrys only international university in the fields of engineering and technology, is run and funded by OIC.',
+              Text("বান্দরবন জেলার নামকরণ নিয়ে একটি কিংবদন্তি আছে, এলাকার বাসিন্দাদের মুখে প্রচলিত রূপকথায় অত্র এলাকায় এ সময় অসংখ্য বানর বাস করত। আর এ ই বানরগুলো শহরের প্রবেশ মুখে ছড়ার পাড়ে প্রতিনিয়ত লবণ খেতে আসত। এক সময় অতি বৃষ্টির কারণে ছড়ার পানি বৃদ্ধি পেলে বানরের দল ছড়া পাড় থেকে পাহাড়ে যেতে না পারায় একে অপরকে ধরে সারিবদ্ধভাবে ছড়া পার হয়। বানরের ছড়া পারাপারের এই র্দশ্য ধেকতে পায় এই জনপদের মানুষ। এই সময় থেকে জায়গাটি 'ম্যাঅকছি ছড়া' হিসেবে পরিচিতি লাভ করে। মার্মা ভাষায় ম্যাঅক শব্দটির অর্থ হল বানর আর ছিঃ শব্দটির অর্থ হল বাধঁ। কালের প্রবাহে বাংল ভাষাভাষির সাধারণ উচ্চারণে এই এলাকার নাম বান্দরবন হিসেবে পরিচিতি লাভ করে। তবে মার্মা ভাষায় বান্দরবনের প্রকৃত নাম 'রদ ক্যওচি চিম্রো'।",
                 style: TextStyle(fontSize: 15),),
-              Text('Demographics',
+              Text('বিখ্যাত খাবার',
                 style: TextStyle(fontSize: 25),),
-              Text('Bandarban District (Dhaka division), with an area of 1741.53 km², is bounded by Mymensingh and Kishoreganj districts on the north, Dhaka, Narayanganj and Narsingdi districts on the south, Narsingdi on the east, Dhaka and Tangail districts on the west. Annual average temperature maximum 36 °C and minimum 12.7 °C; annual rainfall 2376 mm.',
+              Text('(১) হিল জুস'
+                  ' (২) তামাক',
                 style: TextStyle(fontSize: 15),),
-              Text('Main rivers are old Brahmaputra, Shitalakshya, Turag (sight of Bishwa Ijtema, a Tablighi Jamaat conference in January), Bangshi, Balu, Banar. Turag is seriously polluted by industrial chemical.',
-                style: TextStyle(fontSize: 15),),
-              Text('Administration',
+              Text('বিখ্যাত স্থান',
                 style: TextStyle(fontSize: 25),),
-              Text('Gazipur consists of 9 wards and 31 mahallas with an area of 49.32 km². The fast-growing town has a population more than 1 million and density more than 24,000 per km²; male 52.52%, female 47.48%.[2]',
+              Text('মেঘলা পর্যটন কেন্দ্র'
+                  'নীলাচল পর্যটন কমপ্লেক্স'
+                  'চিম্বুক'
+                  'শৈলপ্রপাত'
+                  'বগালেক'
+                  'স্বর্ণমন্দির'
+                  'কেওক্রাডং'
+                  'নীলগিরি'
+                  'প্রান্তিক লেক'
+                  'ঋজুক জলপ্রপাত'
+                  'মিরিঞ্জা কমপ্লেক্স',
                 style: TextStyle(fontSize: 15),),
-              Text('Banks',
-                style: TextStyle(fontSize: 25),),
-              Text('There is head office of a national strong bank which is Progoti Co-operative Land Development Bank Limited, in the short name or a nickname, Progoti Bank in Kapasia Upazila Sadar, a small but very beautiful town nearly 30 kilometer north of Gazipur City what specializes in originating and/or servicing mortgage loans, is said that Progoti Bank is father of Land Development Banks in the country. Without it, branches of banking institutions in the area include:',
-                style: TextStyle(fontSize: 15),),
+
             ],
           ),
         ),

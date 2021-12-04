@@ -14,7 +14,7 @@ class _barisalzillaState extends State<barisalzilla> {
 
       appBar: AppBar(
         backgroundColor: Colors.green,
-        title: Text('History of Barisal'),
+        title: Text('বরিশাল বিভাগ ও জেলার ইতিহাস'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(18.0),
@@ -26,23 +26,37 @@ class _barisalzillaState extends State<barisalzilla> {
                   width: 400,
                   fit: BoxFit.cover
               ),
-              Text('History of Barisal',
+              Text('বরিশাল জেলা',
                 style: TextStyle(fontSize: 25),),
-              Text('Barisal (Bengali: গাজীপুর) is a city in central Bangladesh. It is located in the Gazipur District, near the capital city of Dhaka and has a population of 1 199 215. Gazipur is the home of Dhaka University of Engineering & Technology and Islamic University of Technology (IUT), the countrys only international university in the fields of engineering and technology, is run and funded by OIC.',
+              Text('বরিশাল নামকরণ সম্পর্কে বিভিন্ন মতভেদ রয়েছে। এক কিংবদন্তি থেকে জানা যায় যে, পূর্বে এখানে খুব বড় বড় শাল গাছ জন্মাতো, আর এই বড় শাল গাছের কারণে (বড়+শাল) বরিশাল নামের উৎপত্তি। কেউ কেউ দাবি করেন, পর্তুগীজ বেরি ও শেলির প্রেমকাহিনীর জন্য বরিশাল নামকরণ করা হয়েছে। অন্য এক কিংবদন্তি থেকে জানা যায় যে, গিরদে বন্দরে (গ্রেট বন্দর) ঢাকা নবাবদের বড় বড় লবণের গোলা ও চৌকি ছিল। ইংরেজ ও পর্তুগীজ বণিকরা বড় বড় লবণের চৌকিকে ”বরিসল্ট” বলতো। অথাৎ বরি (বড়)+ সল্ট(লবণ)= বরিসল্ট। আবার অনেকের ধারণা এখানকার লবণের দানাগুলো বড় বড় ছিল বলে ”বরিসল্ট” বলা হতো । পরবর্তিতে বরিসল্ট শব্দটি পরিবর্তিত হয়ে বরিশাল নামে পরিচিতি লাভ করে।',
                 style: TextStyle(fontSize: 15),),
-              Text('Demographics',
+              Text('বিখ্যাত খাবার',
                 style: TextStyle(fontSize: 25),),
-              Text('Barisal District (Barisal division), with an area of 1741.53 km², is bounded by Mymensingh and Kishoreganj districts on the north, Dhaka, Narayanganj and Narsingdi districts on the south, Narsingdi on the east, Dhaka and Tangail districts on the west. Annual average temperature maximum 36 °C and minimum 12.7 °C; annual rainfall 2376 mm.',
+              Text('আমড়া',
                 style: TextStyle(fontSize: 15),),
-              Text('Main rivers are old Brahmaputra, Shitalakshya, Turag (sight of Bishwa Ijtema, a Tablighi Jamaat conference in January), Bangshi, Balu, Banar. Turag is seriously polluted by industrial chemical.',
-                style: TextStyle(fontSize: 15),),
-              Text('Administration',
+              Text('বিখ্যাত স্থান',
                 style: TextStyle(fontSize: 25),),
-              Text('Gazipur consists of 9 wards and 31 mahallas with an area of 49.32 km². The fast-growing town has a population more than 1 million and density more than 24,000 per km²; male 52.52%, female 47.48%.[2]',
-                style: TextStyle(fontSize: 15),),
-              Text('Banks',
-                style: TextStyle(fontSize: 25),),
-              Text('There is head office of a national strong bank which is Progoti Co-operative Land Development Bank Limited, in the short name or a nickname, Progoti Bank in Kapasia Upazila Sadar, a small but very beautiful town nearly 30 kilometer north of Gazipur City what specializes in originating and/or servicing mortgage loans, is said that Progoti Bank is father of Land Development Banks in the country. Without it, branches of banking institutions in the area include:',
+             Text(' (১) দুর্গাসাগর'
+                  ' (২) কালেক্টরেট ভবন'
+                  ' (৩) চাখার প্রত্নতাত্ত্বিক জাদুঘর'
+                  ' (৪) রামমোহনের সমাধি মন্দির'
+                  ' (৫) সুজাবাদের কেল্লা'
+                  ' (৬) সংগ্রাম কেল্লা'
+                  ' (৭) শারকলের দুর্গ'
+                  ' (৮) গির্জামহল্লা'
+                  ' (৯) বেলস পার্ক'
+                  ' (১০) এবাদুল্লা মসজিদ'
+                  ' (১১) কসাই মসজিদ'
+                  ' (১২) অক্সফোর্ড গির্জা'
+                  ' (১৩) শংকর মঠ'
+                  ' (১৪) মুকুন্দ দাসের কালীবাড়ি'
+                  ' (১৫) ভাটিখানার জোড়া মসজিদ'
+                  ' (১৬) অশ্বিনী কুমার টাউন হল'
+                  ' (১৭) চরকিল্লা'
+                  ' (১৮) এক গম্বুজ মসজিদ'
+                  ' (১৯) সাড়ে তিন মণ ওজনের পিতলের মনসা'
+                  ' (২০) আবদুর রব সেরনিয়াবাদ সেতু'
+                  ' (২১) উলানিয়া জমিদার বাড়ি',
                 style: TextStyle(fontSize: 15),),
             ],
           ),
