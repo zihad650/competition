@@ -20,17 +20,20 @@ class madaripur extends StatelessWidget {
                 fit: BoxFit.cover,
               ),
               Text('মাদারীপুর জেলা',
-                style: TextStyle(fontSize: 25),),
+                style: TextStyle(fontSize: 25,
+                    color: Colors.deepPurpleAccent),),
               Text('মাদারীপুর জেলা একটি ঐতিহাসিক সমৃদ্ধ জনপদ ছিল। পঞ্চদশ শতাব্দীতে সাধক হযরত বদরুদ্দিন শাহ মাদার (র) এর নামানুসারে এই জেলার নামকরণ করা হয়। প্রাচীনকালে মাদারীপুরের নাম ছিল ইদিলপুর। ১৯৮৪ সালে মাদারীপুর জেলা হিসেবে স্বীকৃতি লাভ করে।',
                 style: TextStyle(fontSize: 15),),
               Text('বিখ্যাত খাবার',
-                style: TextStyle(fontSize: 25),
+                style: TextStyle(fontSize: 25,
+                    color: Colors.deepPurpleAccent),
               ),
               Text('(১) খেজুর গুড়'
                   ' (২) রসগোল্লা',
                 style: TextStyle(fontSize: 15),),
               Text('বিখ্যাত স্থান',
-                style: TextStyle(fontSize: 25),),
+                style: TextStyle(fontSize: 25,
+                    color: Colors.deepPurpleAccent),),
               Text('(১)ঐতিহ্যবাহী শকুনী দীঘি '
                   ' (২) সেনাপতির দিঘি'
                   ' (৩) রাজা রামমোহন রায়ের বাড়ি'

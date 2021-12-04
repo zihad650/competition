@@ -12,7 +12,7 @@ import 'package:competition/mymensingh.dart';
 import 'package:competition/rajshahi.dart';
 import 'package:competition/rangpur.dart';
 import 'package:flutter/material.dart';
-
+import 'setting.dart';
 import 'sylhet.dart';
 
 void main() {
@@ -123,7 +123,7 @@ class _MyHomePageState extends State<MyHomePage> {
                    child: const Padding(
                      padding: EdgeInsets.fromLTRB(03, 100, 03, 15),
                      child: Center(
-                       child: Text("ঢাকা বিভাগ",
+                       child: Text("ঢাকা বিভাগ ",
                          style: TextStyle(color: Colors.black,
                              fontSize: 25,
                          ),
@@ -490,8 +490,13 @@ class _MyHomePageState extends State<MyHomePage> {
             ListTile(
               leading: Icon(Icons.settings),
               title: Text("Settings"),
-              onTap: (){
-                print('Settings');
+              onTap: (){Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) =>setting(),
+                ),
+              );
+              print('Setting');
               },
             ), //Settings
             ListTile(

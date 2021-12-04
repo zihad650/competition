@@ -29,10 +29,23 @@ class rangpur extends StatelessWidget {
             borderSide: BorderSide(color: Colors.black),
           ),
           child: Container(
+            decoration: BoxDecoration(
+              gradient: LinearGradient(
+                colors: [
+                  Colors.yellow,
+                  Colors.orangeAccent,
+                  Colors.yellow.shade300,
+                ],
+
+              ),
+            ),
             child: ListTile(
               title: Padding(
                 padding: const EdgeInsets.all(8.0),
-                child: Center(child: Text("রংপুর বিভাগের জেলা সমুহের নাম ও ইতিহাস")),
+                child: Center(child: Text("রংপুর বিভাগের জেলা সমুহের নাম ও ইতিহাস",
+                    style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold),)),
               ),
             ),
           ),
@@ -56,7 +69,7 @@ class rangpur extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("RP"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("রংপুর জেলা"),
                   subtitle: Text("Beauty of Rangpur"),
@@ -83,7 +96,7 @@ class rangpur extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("PG"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("পঞ্চগড় জেলা"),
                   subtitle: Text("Beauty of Panchagarh"),
@@ -110,7 +123,7 @@ class rangpur extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("TG"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("ঠাকুরগাও জেলা"),
                   subtitle: Text("Beauty of Thakurgaon"),
@@ -137,7 +150,7 @@ class rangpur extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("DJ"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("দিনাজপুর জেলা"),
                   subtitle: Text("Beauty of Dinajpur"),
@@ -164,7 +177,7 @@ class rangpur extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("GB"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("গাইবান্ধা জেলা"),
                   subtitle: Text("Beauty of Gaibandha"),
@@ -191,7 +204,7 @@ class rangpur extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("KG"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("কুড়িগ্রাম জেলা"),
                   subtitle: Text("Beauty of Kurigram"),
@@ -218,7 +231,7 @@ class rangpur extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("LH"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("লালমনিরহাট জেলা"),
                   subtitle: Text("Beauty of Lalmonirhat"),
@@ -245,7 +258,7 @@ class rangpur extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("NF"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("নীলফামারী জেলা"),
                   subtitle: Text("Beauty of Nilphamari"),

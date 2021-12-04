@@ -31,10 +31,23 @@ class khulna extends StatelessWidget {
               borderSide: BorderSide(color: Colors.black),
             ),
             child: Container(
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  colors: [
+                    Colors.yellow,
+                    Colors.orangeAccent,
+                    Colors.yellow.shade300,
+                  ],
+
+                ),
+              ),
               child: ListTile(
                 title: Padding(
                   padding: const EdgeInsets.all(8.0),
-                  child: Center(child: Text("খুলনা বিভাগের জেলা সমুহের নাম ও ইতিহাস")),
+                  child: Center(child: Text("খুলনা বিভাগের জেলা সমুহের নাম ও ইতিহাস",
+                    style: TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold),)),
                 ),
               ),
             ),
@@ -58,7 +71,7 @@ class khulna extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("KL"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("খুলনা জেলা"),
                   subtitle: Text("Beauty of Khulna"),
@@ -85,7 +98,7 @@ class khulna extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("JS"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("যশোর জেলা"),
                   subtitle: Text("Beauty of Jessore"),
@@ -112,7 +125,7 @@ class khulna extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("SK"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("সাতক্ষীরা জেলা"),
                   subtitle: Text("Beauty of Satkhira"),
@@ -139,7 +152,7 @@ class khulna extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("MG"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("মাগুড়া জেলা"),
                   subtitle: Text("Beauty of Magura"),
@@ -166,7 +179,7 @@ class khulna extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("MP"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("মেহেরপুর জেলা"),
                   subtitle: Text("Beauty of Meherpur"),
@@ -193,7 +206,7 @@ class khulna extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("NR"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("নরাইল জেলা"),
                   subtitle: Text("Beauty of Narail"),
@@ -220,7 +233,7 @@ class khulna extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("KT"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("কুষ্টিয়া জেলা"),
                   subtitle: Text("Beauty of Kushtia"),
@@ -247,7 +260,7 @@ class khulna extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("JD"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("ঝিনাইদাহ জেলা"),
                   subtitle: Text("Beauty of Jhenaidah"),
@@ -274,7 +287,7 @@ class khulna extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("BH"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("বাগেরহাট জেলা"),
                   subtitle: Text("Beauty of Bagerhat"),
@@ -301,7 +314,7 @@ class khulna extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("CD"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("চুয়াডাঙ্গা জেলা"),
                   subtitle: Text("Beauty of Chuadanga"),

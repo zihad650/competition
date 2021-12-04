@@ -29,10 +29,23 @@ class rajshahi extends StatelessWidget {
               borderSide: BorderSide(color: Colors.black),
             ),
             child: Container(
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  colors: [
+                    Colors.yellow,
+                    Colors.orangeAccent,
+                    Colors.yellow.shade300,
+                  ],
+
+                ),
+              ),
               child: ListTile(
                 title: Padding(
                   padding: const EdgeInsets.all(8.0),
-                  child: Center(child: Text("রাজশাহী বিভাগের জেলা সমুহের নাম ও ইতিহাস")),
+                  child: Center(child: Text("রাজশাহী বিভাগের জেলা সমুহের নাম ও ইতিহাস",
+                    style: TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold),)),
                 ),
               ),
             ),
@@ -56,7 +69,7 @@ class rajshahi extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("RJ"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("রাজশাহী জেলা"),
                   subtitle: Text("Beauty of Rajshahi"),
@@ -83,7 +96,7 @@ class rajshahi extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("SG"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("সিরাজগঞ্জ জেলা"),
                   subtitle: Text("Beauty of Sirajganj"),
@@ -110,7 +123,7 @@ class rajshahi extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("NG"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("নওগা জেলা"),
                   subtitle: Text("Beauty of Naogaon"),
@@ -137,7 +150,7 @@ class rajshahi extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("NT"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("নাটোর জেলা"),
                   subtitle: Text("Beauty of Natore"),
@@ -164,7 +177,7 @@ class rajshahi extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("CN"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("চাপাইনবাবগঞ্জ জেলা"),
                   subtitle: Text("Beauty of Chapai Nawabganj"),
@@ -191,7 +204,7 @@ class rajshahi extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("PN"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("পাবনা জেলা"),
                   subtitle: Text("Beauty of Pabna"),
@@ -218,7 +231,7 @@ class rajshahi extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("BG"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("বগুড়া জেলা"),
                   subtitle: Text("Beauty of Bogra"),
@@ -245,7 +258,7 @@ class rajshahi extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("JH"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("জয়পুরহাট জেলা"),
                   subtitle: Text("Beauty of Jaipurhat"),

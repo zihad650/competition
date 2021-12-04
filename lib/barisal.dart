@@ -28,10 +28,22 @@ class barisal extends StatelessWidget {
               borderSide: BorderSide(color: Colors.black),
             ),
             child: Container(
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  colors: [
+                    Colors.yellow,
+                    Colors.orangeAccent,
+                    Colors.yellow.shade300,
+                  ],
+                ),
+              ),
               child: ListTile(
                 title: Padding(
                   padding: const EdgeInsets.all(8.0),
-                  child: Center(child: Text("বরিশাল বিভাগের জেলা সমুহের নাম ও ইতিহাস")),
+                  child: Center(child: Text("বরিশাল বিভাগের জেলা সমুহের নাম ও ইতিহাস",
+                    style: TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold),)),
                 ),
               ),
             ),
@@ -55,7 +67,7 @@ class barisal extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("BS"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("বরিশাল জেলা"),
                   subtitle: Text("Beauty of Barisal"),
@@ -82,7 +94,7 @@ class barisal extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("JK"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("ঝালকাঠি জেলা"),
                   subtitle: Text("Beauty of Jhalokati"),
@@ -109,7 +121,7 @@ class barisal extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("PJ"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("পিরোজপুর জেলা"),
                   subtitle: Text("Beauty of Pirojpur"),
@@ -136,7 +148,7 @@ class barisal extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("MS"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("ভোলা জেলা"),
                   subtitle: Text("Beauty of Bhola"),
@@ -163,7 +175,7 @@ class barisal extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("PK"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("পটুয়াখালী জেলা"),
                   subtitle: Text("Beauty of Patuakhali"),
@@ -190,7 +202,7 @@ class barisal extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("BG"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("বরগুনা জেলা"),
                   subtitle: Text("Beauty of Barguna"),

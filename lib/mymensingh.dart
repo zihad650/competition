@@ -26,10 +26,23 @@ class mymensingh extends StatelessWidget {
               borderSide: BorderSide(color: Colors.black),
             ),
             child: Container(
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  colors: [
+                    Colors.yellow,
+                    Colors.orangeAccent,
+                    Colors.yellow.shade300,
+                  ],
+
+                ),
+              ),
               child: ListTile(
                 title: Padding(
                   padding: const EdgeInsets.all(8.0),
-                  child: Center(child: Text("ময়মনসিংহ বিভাগের জেলা সমুহের নাম ও ইতিহাস")),
+                  child: Center(child: Text("ময়মনসিংহ বিভাগের জেলা সমুহের নাম ও ইতিহাস",
+                    style: TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold),)),
                 ),
               ),
             ),
@@ -53,7 +66,7 @@ class mymensingh extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    backgroundImage: ExactAssetImage("images/munshigonj.png"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("ময়মনসিংহ জেলা"),
                   subtitle: Text("Beauty of Mymensing"),
@@ -80,7 +93,7 @@ class mymensingh extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("SP"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("শেরপুর জেলা"),
                   subtitle: Text("Beauty of Sherpur"),
@@ -107,7 +120,7 @@ class mymensingh extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("JP"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("জামালপুর জেলা"),
                   subtitle: Text("Beauty of Jamalpur"),
@@ -134,7 +147,7 @@ class mymensingh extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("NT"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("নেত্রকোনা জেলা"),
                   subtitle: Text("Beauty of Netrokona"),

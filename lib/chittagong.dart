@@ -30,10 +30,23 @@ class chittagong extends StatelessWidget {
             borderSide: BorderSide(color: Colors.black),
           ),
           child: Container(
+            decoration: BoxDecoration(
+              gradient: LinearGradient(
+                colors: [
+                  Colors.yellow,
+                  Colors.orangeAccent,
+                  Colors.yellow.shade300,
+                ],
+
+              ),
+            ),
             child: ListTile(
               title: Padding(
                 padding: const EdgeInsets.all(8.0),
-                child: Center(child: Text("চট্টগ্রাম বিভাগের জেলা সমুহের নাম ও ইতিহাস")),
+                child: Center(child: Text("চট্টগ্রাম বিভাগের জেলা সমুহের নাম ও ইতিহাস",
+                  style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold),)),
               ),
             ),
           ),
@@ -57,7 +70,7 @@ class chittagong extends StatelessWidget {
             child: Container(
               child: ListTile(
                 leading: CircleAvatar(
-                  child: Text("CT"),
+                  backgroundImage: ExactAssetImage("images/map.png"),
                 ),
                 title: Text("চট্টগ্রাম জেলা"),
                 subtitle: Text("Beauty of Chittagong"),
@@ -84,7 +97,7 @@ class chittagong extends StatelessWidget {
             child: Container(
               child: ListTile(
                 leading: CircleAvatar(
-                  child: Text("CL"),
+                  backgroundImage: ExactAssetImage("images/map.png"),
                 ),
                 title: Text("কুমিল্লা জেলা"),
                 subtitle: Text("Beauty of Comilla"),
@@ -111,7 +124,7 @@ class chittagong extends StatelessWidget {
             child: Container(
               child: ListTile(
                 leading: CircleAvatar(
-                  child: Text("FN"),
+                  backgroundImage: ExactAssetImage("images/map.png"),
                 ),
                 title: Text("ফেনী জেলা"),
                 subtitle: Text("Beauty of Feni"),
@@ -138,7 +151,7 @@ class chittagong extends StatelessWidget {
             child: Container(
               child: ListTile(
                 leading: CircleAvatar(
-                  child: Text("BB"),
+                  backgroundImage: ExactAssetImage("images/map.png"),
                 ),
                 title: Text("ব্রাহ্মনবাড়ীয়া জেলা"),
                 subtitle: Text("Beauty of Brahmanbaria"),
@@ -165,7 +178,7 @@ class chittagong extends StatelessWidget {
             child: Container(
               child: ListTile(
                 leading: CircleAvatar(
-                  child: Text("RM"),
+                  backgroundImage: ExactAssetImage("images/map.png"),
                 ),
                 title: Text("রাঙামাটি জেলা"),
                 subtitle: Text("Beauty of Rangamati"),
@@ -192,7 +205,7 @@ class chittagong extends StatelessWidget {
             child: Container(
               child: ListTile(
                 leading: CircleAvatar(
-                  child: Text("KC"),
+                  backgroundImage: ExactAssetImage("images/map.png"),
                 ),
                 title: Text("খাগড়াছরি জেলা"),
                 subtitle: Text("Beauty of Khagrachari"),
@@ -219,7 +232,7 @@ class chittagong extends StatelessWidget {
             child: Container(
               child: ListTile(
                 leading: CircleAvatar(
-                  child: Text("NK"),
+                  backgroundImage: ExactAssetImage("images/map.png"),
                 ),
                 title: Text("নোয়াখালী জেলা"),
                 subtitle: Text("Beauty of Noakhali"),
@@ -246,7 +259,7 @@ class chittagong extends StatelessWidget {
             child: Container(
               child: ListTile(
                 leading: CircleAvatar(
-                  child: Text("CP"),
+                  backgroundImage: ExactAssetImage("images/map.png"),
                 ),
                 title: Text("চাদপুর জেলা"),
                 subtitle: Text("Beauty of Chandpur"),
@@ -273,7 +286,7 @@ class chittagong extends StatelessWidget {
             child: Container(
               child: ListTile(
                 leading: CircleAvatar(
-                  child: Text("LK"),
+                  backgroundImage: ExactAssetImage("images/map.png"),
                 ),
                 title: Text("লক্ষীপুর জেলা"),
                 subtitle: Text("Beauty of Lakshmipur"),
@@ -300,7 +313,7 @@ class chittagong extends StatelessWidget {
             child: Container(
               child: ListTile(
                 leading: CircleAvatar(
-                  child: Text("CB"),
+                  backgroundImage: ExactAssetImage("images/map.png"),
                 ),
                 title: Text("কক্সবাজার জেলা"),
                 subtitle: Text("Beauty of Cox's Bazar"),
@@ -327,7 +340,7 @@ class chittagong extends StatelessWidget {
             child: Container(
               child: ListTile(
                 leading: CircleAvatar(
-                  child: Text("BR"),
+                  backgroundImage: ExactAssetImage("images/map.png"),
                 ),
                 title: Text("বান্দরবান জেলা"),
                 subtitle: Text("Beauty of Bandarban"),

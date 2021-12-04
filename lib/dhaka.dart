@@ -33,10 +33,23 @@ class dhaka extends StatelessWidget {
               borderSide: BorderSide(color: Colors.black),
             ),
             child: Container(
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  colors: [
+                    Colors.yellow,
+                    Colors.orangeAccent,
+                    Colors.yellow.shade300,
+                  ],
+
+                ),
+              ),
               child: ListTile(
                 title: Padding(
                   padding: const EdgeInsets.all(8.0),
-                  child: Center(child: Text("ঢাকা বিভাগের জেলা সমুহের নাম ও ইতিহাস")),
+                  child: Center(child: Text("ঢাকা বিভাগের জেলা সমুহের নাম ও ইতিহাস",
+                    style: TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold),)),
                 ),
               ),
             ),
@@ -60,7 +73,7 @@ class dhaka extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("DH"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("ঢাকা জেলা"),
                   subtitle: Text("Capital Of Bangladesh"),
@@ -87,7 +100,7 @@ class dhaka extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("MD"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("মাদারীপুর জেলা"),
                   subtitle: Text("United State of Madaripur"),
@@ -114,7 +127,7 @@ class dhaka extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("FP"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("ফরিদপুর জেলা"),
                   subtitle: Text("Danger of Faridpur"),
@@ -141,7 +154,7 @@ class dhaka extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("GP"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("গাজীপুর জেলা"),
                   subtitle: Text("Danger of Gazipur"),
@@ -168,7 +181,7 @@ class dhaka extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("RJ"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("রাজবাড়ী জেলা"),
                   subtitle: Text("Beauty of Rajbari"),
@@ -195,7 +208,7 @@ class dhaka extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("GG"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("গোপালগঞ্জ জেলা"),
                   subtitle: Text("Beauty of Gopalganj"),
@@ -222,7 +235,7 @@ class dhaka extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("NG"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("নরসিংদী জেলা"),
                   subtitle: Text("Beauty of Narsingdi"),
@@ -249,7 +262,7 @@ class dhaka extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("ST"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("শরীয়তপুর জেলা"),
                   subtitle: Text("Beauty of Shariatpur"),
@@ -276,7 +289,7 @@ class dhaka extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("NG"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("নারায়নগঞ্জ জেলা"),
                   subtitle: Text("Beauty of Narayanganj"),
@@ -303,7 +316,7 @@ class dhaka extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("TG"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("টাঙ্গাইল জেলা"),
                   subtitle: Text("Beauty of Tangail"),
@@ -330,7 +343,7 @@ class dhaka extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("KG"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("কিশোরগঞ্জ জেলা"),
                   subtitle: Text("Beauty of Kishoreganj"),
@@ -357,7 +370,7 @@ class dhaka extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("MG"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("মন্সীগঞ্জ জেলা"),
                   subtitle: Text("Beauty of Munshiganj"),
@@ -384,7 +397,7 @@ class dhaka extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("MG"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("মানিকগঞ্জ জেলা"),
                   subtitle: Text("Beauty of Manikganj"),

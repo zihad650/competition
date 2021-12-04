@@ -11,7 +11,8 @@ class sylhet extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.green,
-        title: Text('সিলেট বিভাগের জেলা সমূহ'),
+        title: Text('সিলেট বিভাগের জেলা সমূহ',
+        ),
       ),
       body: ListView(
         children: [
@@ -24,10 +25,24 @@ class sylhet extends StatelessWidget {
               borderSide: BorderSide(color: Colors.black),
             ),
             child: Container(
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  colors: [
+                    Colors.yellow,
+                    Colors.orangeAccent,
+                    Colors.yellow.shade300,
+                  ],
+
+                ),
+              ),
               child: ListTile(
                 title: Padding(
                   padding: const EdgeInsets.all(8.0),
-                  child: Center(child: Text("সিলেট বিভাগের জেলা সমুহের নাম ও ইতিহাস")),
+                  child: Center(child: Text("সিলেট বিভাগের জেলা সমুহের নাম ও ইতিহাস",
+                    style: TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold),
+                  )),
                 ),
               ),
             ),
@@ -51,7 +66,7 @@ class sylhet extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("SY"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("সিলেট জেলা"),
                   subtitle: Text("Beauty of Sylhet"),
@@ -78,7 +93,7 @@ class sylhet extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("HG"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("হবিগঞ্জ জেলা"),
                   subtitle: Text("Beauty of Habiganj"),
@@ -105,7 +120,7 @@ class sylhet extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("SG"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("সুনামগঞ্জ জেলা"),
                   subtitle: Text("Beauty of Sunamgan"),
@@ -132,7 +147,7 @@ class sylhet extends StatelessWidget {
               child: Container(
                 child: ListTile(
                   leading: CircleAvatar(
-                    child: Text("MB"),
+                    backgroundImage: ExactAssetImage("images/map.png"),
                   ),
                   title: Text("মৌলভীবাজার জেলা"),
                   subtitle: Text("Beauty of MoulovhiBazar"),
