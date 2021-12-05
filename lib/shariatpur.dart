@@ -7,7 +7,7 @@ class shariatpur extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.green,
-        title: Text('History of Shariatpur'),
+        title: Text('শরীয়তপুর জেলার ইতিহাস'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(18.0),
@@ -19,24 +19,36 @@ class shariatpur extends StatelessWidget {
                 width: 400,
                 fit: BoxFit.cover,
               ),
-              Text('History of Shariatpur',
+              Text('শরীয়তপুর জেলা',
                 style: TextStyle(fontSize: 25),),
-              Text('Shariatpur (Bengali: গাজীপুর) is a city in central Bangladesh. It is located in the Gazipur District, near the capital city of Dhaka and has a population of 1 199 215. Gazipur is the home of Dhaka University of Engineering & Technology and Islamic University of Technology (IUT), the countrys only international university in the fields of engineering and technology, is run and funded by OIC.',
+              Text('বৃটিশ বিরোধী তথা ফরায়েজী আন্দোলনের অন্যতম নেতা হাজী শরীয়ত উল্লাহর নামানুসারে শরীয়তপুরের নামকরণ করা হয়। ১৯৮৪ সালে ১লা মার্চ শরীয়তপুর জেলা শুভ উদ্বোধন করেন তৎকালীন তথ্য মন্ত্রী জনাব নাজিম উদ্দিন হাসিম।',
                 style: TextStyle(fontSize: 15),),
-              Text('Demographics',
+              Text('বিখ্যাত খাবার',
                 style: TextStyle(fontSize: 25),),
-              Text('Gazipur District (Dhaka division), with an area of 1741.53 km², is bounded by Mymensingh and Kishoreganj districts on the north, Dhaka, Narayanganj and Narsingdi districts on the south, Narsingdi on the east, Dhaka and Tangail districts on the west. Annual average temperature maximum 36 °C and minimum 12.7 °C; annual rainfall 2376 mm.',
+              Text('বিবিখানা পিঠা',
                 style: TextStyle(fontSize: 15),),
-              Text('Main rivers are old Brahmaputra, Shitalakshya, Turag (sight of Bishwa Ijtema, a Tablighi Jamaat conference in January), Bangshi, Balu, Banar. Turag is seriously polluted by industrial chemical.',
-                style: TextStyle(fontSize: 15),),
-              Text('Administration',
+              Text('বিখ্যাত স্থান',
                 style: TextStyle(fontSize: 25),),
-              Text('Gazipur consists of 9 wards and 31 mahallas with an area of 49.32 km². The fast-growing town has a population more than 1 million and density more than 24,000 per km²; male 52.52%, female 47.48%.[2]',
+             Text(' (১) সুরেশ্বর দরবার শরীফ - নড়িয়া উপজেলার সুরেশ্বর'
+                  ' (২) বুড়ির হাট মসজিদ - ডামুড্যা উপজেলার বুড়ির হাট'
+                  ' (৩) বুড়ির হাট মুন্সী বাড়ী - ডামুড্যা উপজেলার রুদ্রকর ইউনিয়ন'
+                  ' (৪) লাকার্তা শিকদার বাড়ি - ভেদরগঞ্জ উপজেলার ছয়গাঁও ইউনিয়ন'
+                  ' (৫) পন্ডিতসার'
+                  ' (৬) রুদ্রকর মঠ - সদর উপজেলার রুদ্রকর ইউনিয়ন'
+                  ' (৭) মগর'
+                  ' (৮) শিবলিঙ্গ - নড়িয়া উপজেলার ভোজেশ্বর ইউনিয়ন'
+                  ' (৯) মহিষারের দীঘি - দক্ষিণ বিক্রমপুর'
+                  ' (১০) রাজনগর'
+                  ' (১১) কুরাশি'
+                  ' (১২) হাটুরিয়া জমিদার বাড়ি - গোসাইরহাট উপজেলা'
+                  ' (১৩) রাম সাধুর আশ্রম - নড়িয়া উপজেলার ডিঙ্গামানিক ইউনিয়ন'
+                  ' (১৪) মানসিংহের বাড়ী - নড়িয়া উপজেলায় ফতেজংগপুর'
+                  ' (১৫) ধানুকার মনসা বাড়ি'
+                  ' (১৬) মডার্ন ফ্যান্টাসি কিংডম',
                 style: TextStyle(fontSize: 15),),
-              Text('Banks',
-                style: TextStyle(fontSize: 25),),
-              Text('There is head office of a national strong bank which is Progoti Co-operative Land Development Bank Limited, in the short name or a nickname, Progoti Bank in Kapasia Upazila Sadar, a small but very beautiful town nearly 30 kilometer north of Gazipur City what specializes in originating and/or servicing mortgage loans, is said that Progoti Bank is father of Land Development Banks in the country. Without it, branches of banking institutions in the area include:',
+              Text('নড়িয়ার কেদারপুর ইউনিয়নের কলুকাঠি নামক গ্রামে এটি আবস্তিত।এখানে রয়েছে বাংলাদেশের সবচেয়ে বড় মাছের একুরিয়াম ।তাছারা এখানে চিড়িয়াখানা সহ শিশুদের বিনোদনের বিভিন্ন ব্যবস্থা রয়েছে।শরীয়তপুর জেলার একমাত্র বিনোদন কেন্দ্র হিসেবে সকলের কাছে পরিচিত।',
                 style: TextStyle(fontSize: 15),),
+
             ],
           ),
         ),

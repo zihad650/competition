@@ -40,7 +40,7 @@ class sylhet extends StatelessWidget {
                   padding: const EdgeInsets.all(8.0),
                   child: Center(child: Text("সিলেট বিভাগের জেলা সমুহের নাম ও ইতিহাস",
                     style: TextStyle(
-                        fontSize: 20,
+                        fontSize: 16,
                         fontWeight: FontWeight.bold),
                   )),
                 ),

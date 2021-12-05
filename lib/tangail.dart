@@ -7,7 +7,7 @@ class tangail extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.green,
-        title: Text('History of Tangail'),
+        title: Text('টাঙ্গাইল জেলার ইতিহাস'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(18.0),
@@ -19,23 +19,54 @@ class tangail extends StatelessWidget {
                 width: 400,
                 fit: BoxFit.cover,
               ),
-              Text('History of Tangail',
+              Text('টাঙ্গাইল জেলা',
                 style: TextStyle(fontSize: 25),),
-              Text('Tangail (Bengali: গাজীপুর) is a city in central Bangladesh. It is located in the Gazipur District, near the capital city of Dhaka and has a population of 1 199 215. Gazipur is the home of Dhaka University of Engineering & Technology and Islamic University of Technology (IUT), the countrys only international university in the fields of engineering and technology, is run and funded by OIC.',
+              Text('টাঙ্গাইলের নামকরণ বিষয়ে রয়েছে বহুজনশ্রুতি ও নানা মতামত। ১৭৭৮ খ্রিস্টাব্দে প্রকাশিত রেনেল তাঁর মানচিত্রে এ সম্পূর্ণ অঞ্চলকেই আটিয়া বলে দেখিয়েছেন। ১৮৬৬ খ্রিস্টাব্দের আগে টাঙ্গাইল নামে কোনো স্বতন্ত্র স্থানের পরিচয় পাওয়া যায় না। টাঙ্গাইল নামটি পরিচিতি লাভ করে ১৫ নভেম্বর ১৮৭০ খ্রিস্টাব্দে মহকুমা সদর দপ্তর আটিয়া থেকে টাঙ্গাইলে স্থানান্তরের সময় থেকে। টাঙ্গাইলের ইতিহাস প্রণেতা খন্দকার আব্দুর রহিম সাহেবের মতে, ইংরেজ আমলে এদেশের লোকেরা উচু শব্দের পরিবর্তে ‘টান’ শব্দই ব্যবহার করতে অভ্যস্ত ছিল বেশি। এখনো টাঙ্গাইল অঞ্চলে ‘টান’ শব্দের প্রচলন আছে। এই টানের সাথে আইল শব্দটি যুক্ত হয়ে হয়েছিল টান আইল। আর সেই টান আইলটি রূপান্তরিত হয়েছে টাঙ্গাইলে। টাঙ্গাইলের নামকরণ নিয়ে আরো বিভিন্নজনে বিভিন্ন সময়ে নানা মত প্রকাশ করেছেন। কারো কারো মতে, বৃটিশ শাসনামলে মোগল প্রশাসন কেন্দ্র আটিয়াকে আশ্রয় করে যখন এই অঞ্চল জম-জমাট হয়ে উঠে। সে সময়ে ঘোড়ার গাড়িছিল যাতায়াতের একমাত্র বাহন, যাকে বর্তমান টাঙ্গাইলের স্থানীয় লোকেরা বলত ‘টাঙ্গা’। বর্তমান শতকের মাঝামাঝি পর্যন্তও এ অঞ্চলের টাঙ্গা গাড়ির চলাচল স্থল পথে সর্বত্র। আল শব্দটির কথা এ প্রসঙ্গে চলে আসে। বর্তমান টাঙ্গাইল অঞ্চলের বিভিন্ন স্থানের নামের সাথে এই আল শব্দটির যোগ লক্ষ্য করা যায়। আল শব্দটির অর্থ সম্ভবত সীমা নির্দেশক যার স্থানীয় উচ্চারণ আইল। একটি স্থানকে যে সীমানা দিয়ে বাঁধা হয় তাকেই আইল বলা হয়। টাঙ্গাওয়ালাদের বাসস্থানের সীমানাকে ‘টাঙ্গা+আইল’ এভাবে যোগ করে হয়েছে ‘টাঙ্গাইল’ এমতটি অনেকে পোষণ করেন। আইল শব্দটি কৃষিজমির সঙ্গে সম্পৃক্ত। এই শব্দটি আঞ্চলিক ভাবে বহুল ব্যবহৃত শব্দ। টাঙ্গাইলের ভূ-প্রকৃতি অনুসারে স্বাভাবিক ভাবে এর ভূমি উঁচু এবং ঢালু। স্থানীয়ভাবে যার সমার্থক শব্দ হলো টান। তাই এই ভূমিরূপের কারণেই এ অঞ্চলকে হয়তো পূর্বে ‘টান আইল’ বলা হতো। যা পরিবর্তীত হয়ে টাঙ্গাইল হয়েছে।',
                 style: TextStyle(fontSize: 15),),
-              Text('Demographics',
+              Text('বিখ্যাত খাবার',
                 style: TextStyle(fontSize: 25),),
-              Text('Gazipur District (Dhaka division), with an area of 1741.53 km², is bounded by Mymensingh and Kishoreganj districts on the north, Dhaka, Narayanganj and Narsingdi districts on the south, Narsingdi on the east, Dhaka and Tangail districts on the west. Annual average temperature maximum 36 °C and minimum 12.7 °C; annual rainfall 2376 mm.',
+              Text('চমচম',
                 style: TextStyle(fontSize: 15),),
-              Text('Main rivers are old Brahmaputra, Shitalakshya, Turag (sight of Bishwa Ijtema, a Tablighi Jamaat conference in January), Bangshi, Balu, Banar. Turag is seriously polluted by industrial chemical.',
-                style: TextStyle(fontSize: 15),),
-              Text('Administration',
+              Text('বিখ্যাত স্থান',
                 style: TextStyle(fontSize: 25),),
-              Text('Gazipur consists of 9 wards and 31 mahallas with an area of 49.32 km². The fast-growing town has a population more than 1 million and density more than 24,000 per km²; male 52.52%, female 47.48%.[2]',
-                style: TextStyle(fontSize: 15),),
-              Text('Banks',
-                style: TextStyle(fontSize: 25),),
-              Text('There is head office of a national strong bank which is Progoti Co-operative Land Development Bank Limited, in the short name or a nickname, Progoti Bank in Kapasia Upazila Sadar, a small but very beautiful town nearly 30 kilometer north of Gazipur City what specializes in originating and/or servicing mortgage loans, is said that Progoti Bank is father of Land Development Banks in the country. Without it, branches of banking institutions in the area include:',
+             Text(' (১) শাহ্ আদম কাশ্মিরির মাজার'
+                  ' (২) পরীর দালান'
+                  ' (৩) আতিয়া মসজিদ'
+                  ' (৪) খামারপাড়া মসজিদ ও মাজার'
+                  ' (৫) ঝরোকা'
+                  ' (৬) সাগরদীঘি'
+                  ' (৭) গুপ্তবৃন্দাবন'
+                  ' (৮) পাকুটিয়া আশ্রম'
+                  ' (৯) ভারতেশ্বরী হোমস'
+                  ' (১০) মহেড়া জমিদারবাড়ি/পুলিশ ট্রেনিং সেন্টার'
+                  ' (১১) মির্জাপুর ক্যাডেট কলেজ'
+                  ' (১২) পাকুল্লা মসজিদ'
+                  ' (১৩) নাগরপুর জমিদারবাড়ি'
+                  ' (১৪) পুন্ডরীকাক্ষ হাসপাতাল'
+                  ' (১৫) উপেন্দ্র সরোব'
+                  ' (১৬) গয়হাটার মঠ'
+                  ' (১৭) তেবাড়িয়া জামে মসজিদ'
+                  ' (১৮) পাকুটিয়া জমিদারবাড়ি'
+                  ' (১৯) বঙ্গবন্ধু সেতু'
+                  ' (২০) এলেঙ্গা রিসোর্ট'
+                  ' (২১) যমুনা রিসোর্ট'
+                  ' (২২) কাদিমহামজানি মসজিদ'
+                  ' (২৩) ঐতিহ্যবাহী পোড়াবাড়ি'
+                  ' (২৪) সন্তোষ'
+                  ' (২৫) করটিয়া সা’দত কলেজ'
+                  ' (২৬) বিন্দুবাসিনী বিদ্যালয়'
+                  ' (২৭) মধুপুর জাতীয় উদ্যান'
+                  ' (২৮) পীরগাছা রাবারবাগান'
+                  ' (২৯) ভূঞাপুরের নীলকুঠি'
+                  ' (৩০) শিয়ালকোল বন্দর'
+                  ' (৩১) ধনবাড়ি মসজিদ ও নবাব প্যালেস'
+                  ' (৩২) নথখোলা স্মৃতিসৌধ'
+                  ' (৩৩) বাসুলিয়া'
+                  ' (৩৪) রায়বাড়ী'
+                  ' (৩৫) কোকিলা পাবর স্মৃতিসৌধ'
+                  ' (৩৬) মুক্তিযুদ্ধ স্মৃতিস্তম্ভ'
+                  ' (৩৭) মোকনা জমিদার বাড়ী'
+                  ' (৩৮) কৃত্রিম চিড়িয়াখানা',
                 style: TextStyle(fontSize: 15),),
             ],
           ),

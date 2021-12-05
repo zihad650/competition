@@ -41,7 +41,7 @@ class mymensingh extends StatelessWidget {
                   padding: const EdgeInsets.all(8.0),
                   child: Center(child: Text("ময়মনসিংহ বিভাগের জেলা সমুহের নাম ও ইতিহাস",
                     style: TextStyle(
-                        fontSize: 20,
+                        fontSize: 14.98,
                         fontWeight: FontWeight.bold),)),
                 ),
               ),

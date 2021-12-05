@@ -7,7 +7,7 @@ class dinajpur extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.green,
-        title: Text('History of Dinajpur'),
+        title: Text('দিনাজপুর জেলার ইতিহাস'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(18.0),
@@ -19,23 +19,34 @@ class dinajpur extends StatelessWidget {
                 width: 400,
                 fit: BoxFit.cover,
               ),
-              Text('History of Dinajpur',
+              Text('দিনাজপুর জেলা',
                 style: TextStyle(fontSize: 25),),
-              Text('Lakshmipur (Bengali: গাজীপুর) is a city in central Bangladesh. It is located in the Gazipur District, near the capital city of Dhaka and has a population of 1 199 215. Gazipur is the home of Dhaka University of Engineering & Technology and Islamic University of Technology (IUT), the countrys only international university in the fields of engineering and technology, is run and funded by OIC.',
+              Text('জনশ্রুতি আছে জনৈক দিনাজ অথবা দিনারাজ দিনাজপুর রাজপরিবারের প্রতিষ্ঠাতা। তাঁর নামানুসারেই রাজবাড়ীতে অবস্থিত মৌজার নাম হয় দিনাজপুর। পরবর্তীতে ব্রিটিশ শাসকরা ঘোড়াঘাট সরকার বাতিল করে নতুন জেলা গঠন করে এবং রাজার সম্মানে জেলার নামকরণ করে দিনাজপুর।',
                 style: TextStyle(fontSize: 15),),
-              Text('Demographics',
+              Text('বিখ্যাত খাবার',
                 style: TextStyle(fontSize: 25),),
-              Text('Gazipur District (Dhaka division), with an area of 1741.53 km², is bounded by Mymensingh and Kishoreganj districts on the north, Dhaka, Narayanganj and Narsingdi districts on the south, Narsingdi on the east, Dhaka and Tangail districts on the west. Annual average temperature maximum 36 °C and minimum 12.7 °C; annual rainfall 2376 mm.',
+              Text(' (১) লিচু'
+                   ' (২) কাটারিভোগ চাল'
+                   ' (৩) চিড়া'
+                   ' (৪) পাপড়',
                 style: TextStyle(fontSize: 15),),
-              Text('Main rivers are old Brahmaputra, Shitalakshya, Turag (sight of Bishwa Ijtema, a Tablighi Jamaat conference in January), Bangshi, Balu, Banar. Turag is seriously polluted by industrial chemical.',
-                style: TextStyle(fontSize: 15),),
-              Text('Administration',
+              Text('বিখ্যাত স্থান',
                 style: TextStyle(fontSize: 25),),
-              Text('Gazipur consists of 9 wards and 31 mahallas with an area of 49.32 km². The fast-growing town has a population more than 1 million and density more than 24,000 per km²; male 52.52%, female 47.48%.[2]',
-                style: TextStyle(fontSize: 15),),
-              Text('Banks',
-                style: TextStyle(fontSize: 25),),
-              Text('There is head office of a national strong bank which is Progoti Co-operative Land Development Bank Limited, in the short name or a nickname, Progoti Bank in Kapasia Upazila Sadar, a small but very beautiful town nearly 30 kilometer north of Gazipur City what specializes in originating and/or servicing mortgage loans, is said that Progoti Bank is father of Land Development Banks in the country. Without it, branches of banking institutions in the area include:',
+             Text(' (১) দিনাজপুর রাজবাড়ি'
+                  ' (২) চেহেলগাজি মসজিদ ও মাজার'
+                  ' (৩) কান্তজিউর মন্দির'
+                  ' (৪) ঘোডাঘাট দুর্গ'
+                  ' (৫) সীতাকোট বিহার'
+                  ' (৬) সুরা মসজিদ'
+                  ' (৭) নয়াবাদ মসজিদ'
+                  ' (৮) রামসাগর'
+                  ' (৯) স্বপ্নপুরী'
+                  ' (১০) স্টেশন ক্লাব'
+                  ' (১১) কালেক্টরেট ভবন'
+                  ' (১২) সার্কিট হাউস ও জুলুমসাগর'
+                  ' (১৩) সিংড়া ফরেস্ট'
+                  ' (১৪) হিলি স্থলবন্দর'
+                  ' (১৫) বিরল স্থলবন্দর',
                 style: TextStyle(fontSize: 15),),
             ],
           ),

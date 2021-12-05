@@ -44,7 +44,7 @@ class rajshahi extends StatelessWidget {
                   padding: const EdgeInsets.all(8.0),
                   child: Center(child: Text("রাজশাহী বিভাগের জেলা সমুহের নাম ও ইতিহাস",
                     style: TextStyle(
-                        fontSize: 20,
+                        fontSize: 15.5,
                         fontWeight: FontWeight.bold),)),
                 ),
               ),

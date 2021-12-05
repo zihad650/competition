@@ -6,7 +6,7 @@ class gopalganj extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('History of Gopalgonj'),
+        title: Text('গোপালগঞ্জ জেলার ইতিহাস'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(18.0),
@@ -18,26 +18,36 @@ class gopalganj extends StatelessWidget {
                 width: 400,
                 fit: BoxFit.cover,
               ),
-              Text('History of Gopalgonj',
+              Text('গোপালগঞ্জ জেলা',
                 style: TextStyle(fontSize: 25),),
-              Text('Gopalganj (Bengali: গোপালগঞ্জ জেলা) is a district (zila in Bengali) in the Dhaka division of Bangladesh.[1] The district has about 1.1 million inhabitants and its surface area is 1,490 km². The main city of the district is also called Gopalganj',
+              Text('গোপালগঞ্জ জেলা শহরের রয়েছে প্রাচীন ইতিহাস। অতীতের রাজগঞ্জ বাজার আজকের জেলা শহর গোপালগঞ্জ। আজ থেকে প্রায় শতাব্দীকাল পূর্বে শহর বলতে যা বুঝায় তার কিছুই এখানে ছিলোনা। এর পরিচিতি ছিলো শুধু একটি ছোট্ট বাজার হিসেবে। এঅঞ্চলটি মাকিমপুর ষ্টেটের জমিদার রানী রাসমণির এলাকাধীন ছিলো। উল্লেখ্য রানী রাসমণি একজন জেলের মেয়ে ছিলেন। সিপাই মিউটিনির সময় তিনি একজন উচ্চ পদস্থ ইংরেজ সাহেবের প্রাণ রক্ষা করেন। পরবর্তীতে তারই পুরস্কার হিসাবে বৃটিশ সরকার রাসমণিরকে মাকিমপুর ষ্টেটের জমিদারী প্রদার করেন এবং তাঁকে রানী উপাধিতে ভূষিত করেন। রানী রাসমণির এক নাতির নাম ছিলো নব-গোপাল তিনি তাঁর স্নেহাস্পদ নাতির নাম এবং পুরানো ইতিহাসকে স্মরণীয় করে রাখার জন্য নাতিন নামের ‘গোপাল’ অংশটি প্রথমে রেখে তার সাথে রাজগঞ্জের ‘গঞ্জ’ যোগ করে এ জাযগাটির নতুর নামকরণ করেন গোপালগঞ্জ। ১৯৮৪ সালে ফরিদপুর জেলার মহকুমা থেকে গোপালগঞ্জ জেলা সৃষ্টি হয়।',
                 style: TextStyle(fontSize: 15),),
 
-              Text('Gopalganj is subdivided into five subdistricts upazila/thana The district is the political bastion of the Awami League. Sheikh Mujibur Rahman, the first President of Bangladesh, hailed from the village of Tungipara in the district. Sheikh Mujibs nephew Sheikh Fazlul Haq Mani had also been elected to parliament from Gopalganj-2 constituency. Both were brutally assassinated on August 15, 1975. Sheikh Mujibs daughter Sheikh Hasina Wajed, has been elected four times as the member of the parliament (MP) from Gopalganj-3 constituency and twice as the Prime Minister of Bangladesh. Her cousin and Sheikh Manis brother, Sheikh Fazlul Karim Selim has been elected four times as the MP from Gopalganj-2 constituency.',
-                style: TextStyle(fontSize: 15),
+              Text('বিখ্যাত স্থান',
+                style: TextStyle(fontSize: 25),
               ),
-              Text('Geography',
-                style: TextStyle(fontSize: 25),),
-              Text('Recently Office of the Deputy Commissioner, Gopalganj has constructed a webportal of the district as www.dcgopalganj.gov.bd [1] under Access to Information program of the Prime Ministers Office. This has been done under the Digital Bangladesh implementation concept of the incumbent government.',
+             Text(' (১) বঙ্গবন্ধু সমাধিসৌধ'
+                  ' (২) কোর্ট মসজিদ'
+                  ' (৩) ওড়াকান্দি ঠাকুর বাড়ি'
+                  ' (৪) জমিদার গিরীশ চন্দ্র সেনের বাড়ী'
+                  ' (৫) অন্যন্যা চন্দ্র ঘাট'
+                  ' (৬) গোপালগঞ্জের চান্দার বিল'
+                  ' (৭) বিলরুট ক্যানেল'
+                  ' (৮) শুকদেবের আশ্রম'
+                  ' (৯) খানার পাড় দীঘি'
+                  ' (১০) উলপুর জমিদার বাড়ী'
+                  ' (১১) মধুমতি বাওড়'
+                  ' (১২) সখীচরন রায়ের বাড়ি'
+                  ' (১৩) আড়পাড়া মুন্সিবাড়ী'
+                  ' (১৪) খাগাইল গায়েবী মসজিদ'
+                  ' (১৫) থানা পাড়া জামে মসজিদ'
+                  ' (১৬) রামদিয়া চন্দ্রনাথ বসুর আশ্রম'
+                  ' (১৭) ৭১ এর বধ্যভূমি স্মৃতিসৌধ (স্মৃতিস্তম্ভ)'
+                  ' (১৮) শুকদেবের আশ্রম'
+                  ' (১৯) সর্বজনীন কালিমন্দির'
+                  ' (২০) সেন্ট মথুরানাথ এজি চার্চ'
+                  ' (২১) কবি সুকান্ত ভট্টাচার্যের পৈত্রিকবাড়ী',
                 style: TextStyle(fontSize: 15),),
-              Text('History',
-                style: TextStyle(fontSize: 25),),
-              Text('Gopalganj district consists of 5 Upazillas (previously known as Thana which is essentially a subdistrict) - Gopalganj Sadar, Kotalipara, Kashiani, Muksedpur, and Tungipara. The main town is known as Gopalganj. Gopalganj was far away for administration. So it was made Thana by referring Calcutta Gazette in 1870. In the year of 1909, Gopalganj became sub division comprising Sadar, Kotalipara, Kashiani, Muksedpur. Tungipara was then included in Sadar. Gopalganj District was established in 1984, prior to this it was a subdivision of (Faridpur District). The first SDO (sub-divisional officer) was Mr. Suresh Candra Sen. Tungipara was emancipated as upazilla in 1984 by breaking sadar. After the liberation war, Gopalganj sadar become Pourashava and Panna Biswas was selected as the first chairman.',
-                style: TextStyle(fontSize: 15),),
-      
-              Text('Gopalganj is associated with significant importance in Bangladesh politics. Bangabandhu Sheikh Mujibur Rahman, the first president of Bangladesh, was from Gopalganj. His political career started here. His daughter Sheikh Hasina is currently serving her second term as the prime minister of Bangladesh. Molla Jalal, Khan Saheb Sheikh Mosharrof Hossain were among other popular political leaders of this area.',
-                style: TextStyle(fontSize: 15),
-              ),
             ],
           ),
         ),

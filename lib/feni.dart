@@ -7,7 +7,7 @@ class feni extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.green,
-        title: Text('History of Feni'),
+        title: Text('ফেনী জেলার ইতিহাস'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(18.0),
@@ -19,23 +19,27 @@ class feni extends StatelessWidget {
                 width: 400,
                 fit: BoxFit.cover,
               ),
-              Text('History of Feni',
+              Text('ফেনী জেলা',
                 style: TextStyle(fontSize: 25),),
-              Text('Feni (Bengali: গাজীপুর) is a city in central Bangladesh. It is located in the Gazipur District, near the capital city of Dhaka and has a population of 1 199 215. Gazipur is the home of Dhaka University of Engineering & Technology and Islamic University of Technology (IUT), the countrys only international university in the fields of engineering and technology, is run and funded by OIC.',
+              Text('ফেনী নদীর নাম অনুসারে এ অঞ্চলের নাম রাখা হয় ফেনী। মধ্যযুগে কবি ও সাহিত্যিকদের কবিতা ও সাহিত্যে একটি বিশেষ নদীর স্রোদধা ও ফেনী পরাপারের ঘাট হিসেবে আমরা ফনী শব্দটি পাই। ষোড়শ শতাব্দীতে কবি কবীন্দ্র পরমেশ্বর পরাগলপুরের বর্ণনায় লিখেছেন, ফনী নদীতে বেষ্টিত চারিধার, পূর্বে মহাগিরি পার পাই তার। সতের শতকে মির্জা নাথানের ফার্সী ভাষায় রচিত বাহরিস্থান-ই-গায়েরীতে ফনী শব্দ ফেনীতে পরিণত হয়। আটারো শতকের ষেষ ভাগে কবি আলী রেজা প্রকাশ কানু ফকির তাঁর পীরের বসতি হাজীগাঁওয়ের অবস্থান সম্পর্কে বর্ণনা দিতে গিয়ে লিখেছেন, ’েনীর দক্ষিণে এক বর উপাম, হাজীগাঁও করিছিল সেই দেশের নাম’। মোহাম্মদ মুকিম তাঁর পৈতৃক বসতির বর্ণনাকালে বলেছেন,"ফেনীর পশ্চিমভঅগে জুগিদিয়া দেশ। বলাবাহুল্য তাঁরাও নদী অর্থে ফেনী শব্দ ব্যবহার করেছেন। মুসলমান কবি-সাহিত্যিকদের ভাষায় আদি শব্দ ’ফনী’ ফেনীতে পরিণত হয়েছে।',
                 style: TextStyle(fontSize: 15),),
-              Text('Demographics',
+              Text('বিখ্যাত খাবার',
                 style: TextStyle(fontSize: 25),),
-              Text('Gazipur District (Dhaka division), with an area of 1741.53 km², is bounded by Mymensingh and Kishoreganj districts on the north, Dhaka, Narayanganj and Narsingdi districts on the south, Narsingdi on the east, Dhaka and Tangail districts on the west. Annual average temperature maximum 36 °C and minimum 12.7 °C; annual rainfall 2376 mm.',
+              Text('(১) মহিশের দুধের ঘি'
+                  ' (২) সেগুন কাঠ'
+                  ' ও (৩) খন্ডলের মিষ্টি',
                 style: TextStyle(fontSize: 15),),
-              Text('Main rivers are old Brahmaputra, Shitalakshya, Turag (sight of Bishwa Ijtema, a Tablighi Jamaat conference in January), Bangshi, Balu, Banar. Turag is seriously polluted by industrial chemical.',
-                style: TextStyle(fontSize: 15),),
-              Text('Administration',
+              Text('বিখ্যাত স্থান',
                 style: TextStyle(fontSize: 25),),
-              Text('Gazipur consists of 9 wards and 31 mahallas with an area of 49.32 km². The fast-growing town has a population more than 1 million and density more than 24,000 per km²; male 52.52%, female 47.48%.[2]',
-                style: TextStyle(fontSize: 15),),
-              Text('Banks',
-                style: TextStyle(fontSize: 25),),
-              Text('There is head office of a national strong bank which is Progoti Co-operative Land Development Bank Limited, in the short name or a nickname, Progoti Bank in Kapasia Upazila Sadar, a small but very beautiful town nearly 30 kilometer north of Gazipur City what specializes in originating and/or servicing mortgage loans, is said that Progoti Bank is father of Land Development Banks in the country. Without it, branches of banking institutions in the area include:',
+             Text(' (১) পাগলা মিয়ার মাজার'
+                  ' (২) সোনাগাজী মুহুরি সেচ প্রকল্প'
+                  ' (৩) শিলুয়ার শীল পাথর'
+                  ' (৪) রাজাঝির দীঘি'
+                  ' (৫) মোহাম্মদ আলী চৌধুরী মসজিদ ও বাসভবন'
+                  ' (৬) চাঁদগাজী মসজিদ'
+                  ' (৭) মহিপালের বিজয় সিংহ দীঘি'
+                  ' (৮) সাত মন্দির'
+                  ' (৯) জগন্নাথ কালি মন্দির',
                 style: TextStyle(fontSize: 15),),
             ],
           ),

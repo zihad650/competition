@@ -7,7 +7,7 @@ class narayanganj extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.green,
-        title: Text('History of Narayanganj'),
+        title: Text('নারায়ণগঞ্জ জেলার ইতিহাস'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(18.0),
@@ -19,25 +19,39 @@ class narayanganj extends StatelessWidget {
                 width: 400,
                 fit: BoxFit.cover,
               ),
-              Text('History of Narayanganj',
+              Text('নারায়ণগঞ্জ জেলা',
                 style: TextStyle(fontSize: 25),),
-              Text('Narayanganj (Bengali: নারায়ণগঞ্জ Naraeongônj) is a city in central Bangladesh. It is located in the Narayanganj District, near the capital city of Dhaka and has a population of 220,000. The city is on the bank of the Shitalakshya River. The river port of Narayanganj is one of the oldest in Bangladesh.[1] It is also a center of business and industry, especially the jute trade and processing plants, and the textile sector of the country. It is nicknamed the Dundee of Bangladesh due to the presence of its many jute mills. Dundee was the first industrialised Juteopolis in the world.',
+              Text('১৭৬৬ সালে হিন্দু সম্প্রদায়ের নেতা বিকন লাল পান্ডে( বেণু ঠাকুর বা লক্ষীনায়ায়ণ ঠাকুর) ইস্ট ইন্ডিয়া কোম্পানির নিকট থেকে এ অঞ্চলের মালিকানা গ্রহণ করে। তিনি প্রভু নারায়ণের সেবার ব্যয়ভার বহনের জন্য একটি উইলের মাধ্যমে শীতলক্ষা নদীর তীরে অবস্থিত মার্কেটকে দেবোত্তর সম্পত্তি হিসেবে ঘোষণা করেন। তাই পরবর্তীকালে এ স্থানের নাম হয় নারায়ণগঞ্জ।',
                 style: TextStyle(fontSize: 15),),
-              Text('History',
+              Text('বিখ্যাত খাবার',
                 style: TextStyle(fontSize: 15),),
-              Text('Tomb of Ghiyasuddin Azam Shah, Narayanganj, Bangladesh. ca 1410 The town got its name from Bicon Lal Pandey, a Hindu religious leader who was also known as Benur Thakur or Lakhsmi Narayan Thakur. He leased the area from the British East India Company in 1766 following the Battle of Plassey. He donated the markets and the land on the banks of the river as Devottor or Given to God property, bequeathed for maintenance expenses for the worship of the god Narayan.[1] A post office was set up in 1866, and Dhaka-Narayanganj telegraph service was started from 1877. The Bank of Bengal introduced the first telephone service in 1882. The Narayanganj Municipality was incorporated on 8 September 8 1876. The first hospital of the area of Narayanganj Victoria Hospital was established in 1885 by the Municipality with financial contributions from Harakanta Banerjee.',
+              Text('রসমালাই',
                 style: TextStyle(fontSize: 15),),
-              Text('Contents',
+              Text('বিখ্যাত স্থান',
+                style: TextStyle(fontSize: 25),),
+              Text('বারদী লোকনাথ আশ্রম'
+                  'সোনারগাঁও যাদুঘর'
+                  'তাজমহল, সোনারগাঁও'
+                  'পানাম নগর'
+                  'জিন্দা পার্ক'
+                  'চৌদ্দার চর, আড়াইহাজার'
+                  'সাতগ্রাম জমিদার বাড়ী'
+                  'বাংলাদেশ লোক ও কারু শিল্প যাদুঘর'
+                  'কদম রসুল দরগাহ'
+                  'আদমজী জুট মিল'
+                  'সুলতান গিয়াসউদ্দিন আজম শাহের সমাধি'
+                  'হাজী বাবা সালেহ মাজার'
+                  'সোনাকান্দা দুর্গ'
+                  'মেরি এন্ডারসন-নারায়ণগঞ্জ'
+                  'ফতুল্লা জাতীয় ক্রিকেট ষ্টেডিয়াম'
+                  'হাজীগঞ্জে ঈশা খাঁর কেল্লা'
+                  'পাঁচ পীরের দরগাহ'
+                  'লাঙ্গলবন্দ'
+                  'গোয়ালদী মসজিদ'
+                  'বিবি মরিয়মের মাজার'
+                  'রাসেল পার্ক'
+                  'জিন্দাপার্ক',
                 style: TextStyle(fontSize: 15),),
-              Text('1 History',
-                style: TextStyle(fontSize: 15),),
-              Text('2 See also',
-                style: TextStyle(fontSize: 15),),
-              Text('3 References',
-                style: TextStyle(fontSize: 15),),
-              Text(' 4 External links',
-                style: TextStyle(fontSize: 15),),
-
             ],
           ),
         ),
