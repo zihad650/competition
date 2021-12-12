@@ -50,7 +50,7 @@ class chuadanga extends StatelessWidget {
                   ' (১৬) ধোপাখালী মুক্তিযোদ্ধা কবরস্থান'
                   ' (১৭) কাশিপুর জমিদারবাড়ি'
                   ' (১৮) ধোপাখালী শাহী মসজিদ',
-                style: TextStyle(fontSize: 25),),
+                style: TextStyle(fontSize: 15),),
             ],
           ),
         ),

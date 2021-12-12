@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
 import 'habiganj.dart';
+import 'moulovibazar.dart';
 import 'mymensingh.dart';
+import 'sunamgan.dart';
 import 'sylhetzilla.dart';
 class sylhet extends StatelessWidget {
   const sylhet({Key? key}) : super(key: key);
@@ -105,7 +107,7 @@ class sylhet extends StatelessWidget {
             onTap: () {Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) =>mymensingh(),
+                builder: (context) =>sunamgan(),
               ),
             );
             },
@@ -132,7 +134,7 @@ class sylhet extends StatelessWidget {
             onTap: () {Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) =>mymensingh(),
+                builder: (context) =>moulovibazar(),
               ),
             );
             },

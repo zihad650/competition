@@ -14,7 +14,7 @@ class sunamgan extends StatelessWidget {
         child: SingleChildScrollView(
           child: Column(
             children: [
-              Image.asset("images/sunamgan.jpg",
+              Image.asset("images/sunamgonj.jpg",
                 height: 200,
                 width: 400,
                 fit: BoxFit.cover,

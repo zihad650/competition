@@ -71,6 +71,7 @@ flutter:
     - images/manikgonj.png
     - images/norsindhi.png
     - images/naraongonj.png
+    - images/sylhet.jpg
     - images/moymonsing.png
     - images/barisal.jpg
     - images/jhalokati.jpg
@@ -116,6 +117,8 @@ flutter:
     - images/lalmonirhat.jpg
     - images/kurigram.jpg
     - images/gaibandha.jpg
+    - images/sunamgonj.jpg
+    - images/moulovibazar.jpg
     - images/map.png
     - images/zihad.png
     - images/brahmanbaria.jpg
